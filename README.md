@@ -1,17 +1,26 @@
 # Studypoint-5
-## Exercise 2.
+
+## Exercises - HTTP
+
+### Exercise 2.
+
+The connection header purepose is to decide if the connection should be maintainde of shutdown.
+the keyword keep-alive is used for this.
 
 
 
-
-## Exercise 3.
+### Exercise 3.
 
 The first request method is for studypoint.dk.
 The second request method is for a javascript called angular.js
 
 We end up in https://studypoints.dk/#/view1 instead of https://studypoints.dk
 
-## Exercise 5.
+### Exercise 4
+
+src code - https://github.com/pravien/Studypoint-5/blob/master/Exercise-HTTP/src/main/java/contorl/servlet.java
+
+### Exercise 5.
 
 Set the forms method-attribute to the value “GET” (actually the default value) and test the form. Observe what happens in your browsers address field.
 
@@ -21,12 +30,17 @@ http://localhost:8080/Exercise-HTTP/?fname=df&lname=asd&hidden=12345678#
 When we use Post all the parsed values are hiddn. we cant see them in the url
 
 
-## Exercise 6
+### 6. Sessions (Session Cookies) 
 
 f) Most importen part of this exercise:
 Explain (on paper) using both words and images how the Server can maintain state between subsequent calls even when using a stateless protocol
 
+ - https://github.com/pravien/Studypoint-5/blob/master/Exercise-HTTP/src/main/java/contorl/SessionDemo.java
 
+### 7. Persistent Cookies  
+ - https://github.com/pravien/Studypoint-5/blob/master/Exercise-HTTP/src/main/java/contorl/CookieDemo.java
+
+## Network 
 
 # Network interfaces, IP-numbers and more
 
@@ -116,5 +130,29 @@ Explain (on paper) using both words and images how the Server can maintain state
 9.Start your local Tomcat server and use netstat to verify whether “anyone” is listening on port 8080 and 3306 (what would you expect to find listening on 3306?)
 
 10.If you have setup MySQL on Digital Ocean to be accessible from the school (or home), verify this using Telnet. If not, ask around in the class, and find one who has.
+
+# Domain Name System
+ - visit https://pravient.me/
+
+## Java Socket Exercises
+
+# 1. Echo Server
+
+ - The echo server - https://github.com/pravien/Studypoint-5/blob/master/EchoServer/src/main/java/socket/EchoServer.java
+
+# 5. Echo server with extended protocol
+ 
+ - https://github.com/pravien/Studypoint-5/blob/master/EchoServer/src/main/java/socket/EchoServer5.java
+
+# 6. Extend the Echo Server with the following functionality:
+
+ - https://github.com/pravien/Studypoint-5/tree/master/EchoServer/src/main/java/exercise6
+
+# Exercise 7
+
+## Thread Programming and Non-blocking Java Servers
+
+ - src code https://github.com/pravien/Studypoint-5/tree/master/Studypoint
+
 
 
