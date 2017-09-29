@@ -85,7 +85,7 @@ Explain (on paper) using both words and images how the Server can maintain state
 
 10.How many network interfaces do you have?
 
-- 3.
+- 3
 
 11.Why do you have more than one? What are they for?
 
