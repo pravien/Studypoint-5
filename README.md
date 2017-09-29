@@ -35,11 +35,15 @@ When we use Post all the parsed values are hiddn. we cant see them in the url
 f) Most importen part of this exercise:
 Explain (on paper) using both words and images how the Server can maintain state between subsequent calls even when using a stateless protocol
 
+ 
+
  - https://github.com/pravien/Studypoint-5/blob/master/Exercise-HTTP/src/main/java/contorl/SessionDemo.java
+ - Session are used when the cient and the server are communication, you can use session object to store information that are important for that session. the session wil be lost when you leave the site.
 
 ### 7. Persistent Cookies  
  - https://github.com/pravien/Studypoint-5/blob/master/Exercise-HTTP/src/main/java/contorl/CookieDemo.java
-
+ - A cookie is a piece of data that can be stored in a browser's cache. So you would could leave a site and re visit it , and 
+ the site will know its you because of the cockie
 ## Network 
 
 ### Network interfaces, IP-numbers and more
