@@ -42,7 +42,7 @@ Explain (on paper) using both words and images how the Server can maintain state
 
 ## Network 
 
-# Network interfaces, IP-numbers and more
+### Network interfaces, IP-numbers and more
 
 1. What is the ip address of your wireless card?
 
@@ -95,7 +95,7 @@ Explain (on paper) using both words and images how the Server can maintain state
 
 - 176.23.49.57, yes.
 
-# Networking
+### Networking
 
 1.Find the IP address for cphbusiness.dk
 
@@ -131,24 +131,24 @@ Explain (on paper) using both words and images how the Server can maintain state
 
 10.If you have setup MySQL on Digital Ocean to be accessible from the school (or home), verify this using Telnet. If not, ask around in the class, and find one who has.
 
-# Domain Name System
+### Domain Name System
  - visit https://pravient.me/
 
 ## Java Socket Exercises
 
-# 1. Echo Server
+### 1. Echo Server
 
  - The echo server - https://github.com/pravien/Studypoint-5/blob/master/EchoServer/src/main/java/socket/EchoServer.java
 
-# 5. Echo server with extended protocol
+### 5. Echo server with extended protocol
  
  - https://github.com/pravien/Studypoint-5/blob/master/EchoServer/src/main/java/socket/EchoServer5.java
 
-# 6. Extend the Echo Server with the following functionality:
+### 6. Extend the Echo Server with the following functionality:
 
  - https://github.com/pravien/Studypoint-5/tree/master/EchoServer/src/main/java/exercise6
 
-# Exercise 7
+### Exercise 7
 
 ## Thread Programming and Non-blocking Java Servers
 
